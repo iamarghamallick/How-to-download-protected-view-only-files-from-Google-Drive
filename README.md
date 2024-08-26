@@ -1,6 +1,15 @@
-# How-to-download-protected-view-only-files-from-Google-Drive?
+# Download Protected View-Only Files from Google Drive
 
-1. Open or Preview Any view-only or protected files from google drive.
+This repository provides a simple script to download protected or view-only files from Google Drive. The script leverages the jsPDF library to capture images displayed in a preview and compiles them into a downloadable PDF file.
+
+## Features
+- Works with view-only or protected Google Drive files.
+- Converts images from the preview into a downloadable PDF.
+- Supports Google Chrome, Firefox, Microsoft Edge, and Apple Safari.
+
+## Usage
+
+1. Open or Preview Any view-only or protected files from google drive on your web browser.
 
 2. Open Developer Console.
     If you are previewing in Google Chrome or Firefox
@@ -55,3 +64,6 @@
         document.body.appendChild(jspdf);
 
 5. Now, the pdf file start to download. This might take a few minutes depending on the file size.
+
+## Disclaimer
+This script is intended for educational purposes only. Please respect copyright laws and the terms of service of Google Drive.
